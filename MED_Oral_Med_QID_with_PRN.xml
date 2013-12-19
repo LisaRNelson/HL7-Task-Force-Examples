@@ -5,6 +5,8 @@
 	<id root="47d3e719-f688-459d-bcdc-47c6de0767a9"/>
 	<text>
 		<!-- This reference refers to medication sig information in unstructured portion of section-->
+		<!-- Note: DSTU Comment 375 reports the use of this text element to record the free text sig as an error in the C-CDA specification. It clarifies that this text element should reference the entire meaning encoded for the substance administration. 
+		DSTU 375 proposes that the guidance should be for the "sig" to be encoded in the instruction entryRelationship. -->
 		<reference value="#MedicationSig_0"/>
 	</text>
 	<statusCode code="active"/>
